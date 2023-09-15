@@ -21,7 +21,7 @@
             background-color: #0078d4;
             color: #fff;
             text-align: center;
-            padding: 20px;
+            padding: 50px;
         }
 
         .container {
@@ -32,8 +32,18 @@
         }
 
         h1 {
-            font-size: 24px;
-            margin-bottom: 10px;
+            margin-top: 50px;
+            font-size: 50px;
+            margin-bottom: 50px;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 50px;
         }
 
         p {
@@ -41,32 +51,86 @@
             line-height: 1.5;
         }
 
-        /* Example content */
-        .example {
-            margin-top: 20px;
+        author {
+            font-size: 26px;
+        }
+
+        .abstract {
+            margin-top: 35px;
             padding: 10px;
             background-color: #f7f7f7;
             border-radius: 5px;
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-bottom: 90px;
+        }
+
+        /* Center and adjust video size */
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+        }
+
+        .video-container iframe {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        
+        .example {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            margin-left: 23%;
+            margin-right: 23%;
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Title of Your Research Project</h1>
-        <p>Authors: John Doe, Jane Smith</p>
+        <h1>Title of The Physical Reasoning Project</h1>
+        <author>John Doe, Jane Doe, Alex Doe</author>
     </header>
 
     <div class="container">
-        <h1>Abstract</h1>
-        <p>
-            Write a brief summary of your research project here. This should include the problem statement, objectives, methodology, and key findings of your research.
-        </p>
-
-        <h1>Example</h1>
-        <div class="example">
+        <h2>Abstract</h2>
+        <div class="abstract">
             <p>
-                This is an example section of your research project page. You can use this section to showcase a specific example, result, or data visualization related to your research.
+                Random text: 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Nullam euismod, nisl nec aliquam ultricies, velit elit ultricies nunc,
+                nec ultricies diam nunc eget odio.
+                Nulla facilisi. Nulla facilisi. Nulla facilisi.
+                Nulla facilisi. Nulla facilisi. Nulla facilisi.
+                Nulla facilisi. Nulla facilisi. Nulla facilisi.
+                Nulla facilisi. Nulla facilisi. Nulla facilisi.
+                Nulla facilisi. Nulla facilisi. Nulla facilisi.
             </p>
+        </div>
+
+        <h2>Example</h2>
+
+        <div class="video-container">
+            <iframe width="560" height="315" src="video/output_Full.mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="example">
+            <h3>Question:</h3>
+            <p>Is the fluid density of the green fluid greater than that of the cyan fluid?</p>
+
+            <h3>Answer:</h3>
+            <p>No.</p>
+        </div>
+
+        <div class="example">
+            <h3>Question:</h3>
+            <p>Is the viscosity of the green fluid significantly smaller that of the orange fluid?</p>
+
+            <h3>Answer:</h3>
+            <p>Yes.</p>
         </div>
     </div>
 </body>
